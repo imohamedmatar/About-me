@@ -1,95 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      background-color: #ffffff;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header {
-      padding: 1rem;
-      text-align: center;
-      background: #f8f8f8;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    }
-
-    header h1 {
-      font-size: 2rem;
-    }
-
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1rem;
-      padding: 2rem;
-    }
-
-    .gallery img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .contact {
-      padding: 2rem;
-      background: #f0f0f0;
-    }
-
-    .contact h2 {
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-
-    form {
-      max-width: 600px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    input, textarea {
-      padding: 0.75rem;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 1rem;
-    }
-
-    button {
-      padding: 0.75rem;
-      background: #333;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      font-size: 1rem;
-      cursor: pointer;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #f8f8f8;
-      font-size: 0.9rem;
-    }
-  </style>
-</head>
 <body>
   <header>
     <h1>My Minimal Portfolio</h1>
   </header>
+
+  <section class="about" style="padding: 2rem; max-width: 800px; margin: auto; text-align: center;">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm a creative professional who loves crafting digital experiences. Whether it’s visual storytelling, web design, or photography, I believe in clean aesthetics and impactful visuals. Welcome to my portfolio!
+    </p>
+  </section>
 
   <section class="gallery">
     <img src="https://via.placeholder.com/400x300" alt="Work 1">
@@ -112,4 +31,3 @@
     &copy; 2025 My Portfolio. All rights reserved.
   </footer>
 </body>
-</html>
